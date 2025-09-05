@@ -123,7 +123,7 @@ Erkenntnisse:
 - 1A = 1000mA
 ```
 
-**✅ Aufgabe geschafft? → Weiter zu Lernschritt 2!**
+**✅ Aufgabe geschafft? → Weiter zu Lernschritt 1.2!**
 
 ---
 
