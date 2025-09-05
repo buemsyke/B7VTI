@@ -28,18 +28,6 @@ Du arbeitest im neuen Rechenzentrum. Heute lernst du die Grundlagen von **Spannu
 - **Kathode (-)** = kürzeres Bein → an Minus
 - **Falsch angeschlossen = LED leuchtet nicht**
 
-![LED-Polarität]
-```
-    Anode (+)     Kathode (-)
-        |             |
-    ----+----     ----+----
-   |         |   |         |
-   |    ↗    |   |    ↖    |  
-   |         |   |         |
-    ---------     ---------
-   Längeres Bein  Kürzeres Bein
-```
-
 ## 🔧 Tinkercad-Übung: LED zum Leuchten bringen
 
 ### Aufgabe 1: LED richtig anschließen
