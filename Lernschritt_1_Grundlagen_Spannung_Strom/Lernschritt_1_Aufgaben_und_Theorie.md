@@ -187,4 +187,65 @@ Wichtige Erkenntnisse:
 - 
 ```
 
-**▶️ Wenn du alle Aufgaben erfolgreich gelöst hast, gehe zu Lernschritt 2!**
+## 🔬 Vertiefungen für Experten
+
+Für vertiefendes Lernen stehen dir umfangreiche **Zusatzmaterialien** zur Verfügung:
+
+### 📚 Theoretische Vertiefungen
+- **[Grundlegende Schaltzeichen](./Vertiefungen/01_Grundlegende_Schaltzeichen.md)** - Symbole der Elektrotechnik
+- **[Referenzkennzeichen EN IEC 81356](./Vertiefungen/02_Referenzkennzeichen_EN_IEC_81356.md)** - Eindeutige Bauteilbezeichnungen
+- **[Zählpfeile, Skalar und Vektor](./Vertiefungen/03_Zaehlpfeile_Skalar_Vektor.md)** - Richtungskonventionen
+- **[Verbraucher-Zählpfeilsystem](./Vertiefungen/04_Verbraucher_Zaehlpfeilsystem.md)** - Leistungsberechnung korrekt
+- **[Technische Spannungserzeugung](./Vertiefungen/05_Spannungserzeugung_Batterie.md)** - Wie Batterien funktionieren
+- **[Messung von Strom und Spannung](./Vertiefungen/06_Messung_Strom_Spannung.md)** - Professionelle Messtechnik
+- **[Elektrische Spannung U=W/Q](./Vertiefungen/07_Elektrische_Spannung_Formel.md)** - Physikalische Definition
+- **[Stromstärke und Ladung I=Q/t](./Vertiefungen/08_Stromstaerke_Ladung_Formel.md)** - Strom verstehen
+- **[Widerstand und Leitwert R=1/G](./Vertiefungen/09_Widerstand_Leitwert.md)** - Umgekehrte Proportionalität
+- **[Einheiten](./Vertiefungen/10_Einheiten.md)** - SI-System und Elektrotechnik
+- **[Einheitenvorsätze](./Vertiefungen/11_Einheitenvorsaetze.md)** - Präfixe richtig anwenden
+- **[Runden und Fehlerrechnung](./Vertiefungen/12_Runden_Fehlerrechnung.md)** - Messgenauigkeit berücksichtigen
+
+## 🎮 Interaktive H5P-Übungen
+
+**Spielerisch lernen** mit interaktiven Übungen:
+
+### 🏆 H5P-Übungsmodule
+- **[Messung von Strom und Spannung](./Uebungen_H5P/01_Uebung_Messung_Strom_Spannung.md)** - Praktische Messungen
+- **[Elektrische Spannung U=W/Q](./Uebungen_H5P/02_Uebung_Spannung_Formel.md)** - Energieformel anwenden  
+- **[Stromstärke und Ladung I=Q/t](./Uebungen_H5P/03_Uebung_Strom_Ladung.md)** - Strom-Berechnungen
+- **[Einheitenvorsätze und Rundung](./Uebungen_H5P/04_Uebung_Einheiten_Rundung.md)** - Präfixe und Genauigkeit
+
+**Features der H5P-Übungen:**
+- ✅ **Interaktive Quizzes** mit direktem Feedback
+- ✅ **Drag & Drop** Schaltungsaufbau
+- ✅ **Speed-Challenges** für schnelles Rechnen
+- ✅ **Praxis-Szenarien** aus dem IT-Bereich
+- ✅ **Gamification** mit Punkten und Badges
+- ✅ **Zertifikate** als Kompetenznachweis
+
+📖 **[Alle H5P-Übungen im Überblick](./Uebungen_H5P/README.md)**
+
+## 📈 Dein Lernfortschritt
+
+### ✅ Grundlagen-Checkliste
+- [ ] Spannung und Strom verstehen
+- [ ] LED-Schaltung aufbauen (Tinkercad)
+- [ ] Spannungsmessung (parallel)
+- [ ] Strommessung (in Reihe)
+- [ ] Ohmsches Gesetz anwenden
+- [ ] Einheiten umrechnen (mA ↔ A)
+- [ ] Selbsttest bestanden
+
+### 🎯 Expertenlevel (optional)
+- [ ] Alle 12 Vertiefungen gelesen
+- [ ] H5P-Übungen abgeschlossen
+- [ ] Badges gesammelt
+- [ ] Zertifikate erhalten
+- [ ] Praxis-Challenges gemeistert
+
+## 🚀 Bereit für Lernschritt 2?
+
+**Grundlagen:** Wenn du die Basis-Aufgaben erfolgreich gelöst hast ✅  
+**Experte:** Nach Vertiefungen und H5P-Übungen ✅
+
+**▶️ Weiter zu [Lernschritt 2: Widerstand und Ohmsches Gesetz](../Lernschritt_2_Widerstand_Ohmsches_Gesetz/)**
