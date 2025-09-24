@@ -13,7 +13,7 @@ Der Netzwerktechniker benötigt deine Hilfe bei der Installation von Status-LEDs
 
 ### Was ist eine Reihenschaltung?
 
-In einer **Reihenschaltung** sind alle Bauteile in einer **einzigen Linie** hintereinander geschaltet. Der Strom hat nur **einen Weg**.
+In einer **[Reihenschaltung](https://falstad.com/circuit/circuitjs.html?ctz=CQAgLCAMB0l3BWEBGGAmOaDsWDMkAONANgE5SsQFIqqaEBTAWmWQCgA3EDAkfCHijS8aNMDVRQpMBGwDu3QkN64MyqGwBOfNcjARVE0minVIWnTTTjL3AiLrmFh9S70Qnt-opWQPbAAdwOG4bcSt7PmkUeFj5YKsbF2tRePC7FTVhETSQ5GNbfJNPdPdC-Q0g0orSgtxo1Fi4eOTIl29zIORhFALu3hSo0Rimz37ek3HxsZ7B8Y74+b8fPmWZ3nHBabZcLBo3Oqyk6TYgA)** sind alle Bauteile in einer **einzigen Linie** hintereinander geschaltet. Der Strom hat nur **einen Weg**.
 
 ```
 Batterie (+) → R1 → R2 → R3 → Batterie (-)
@@ -47,7 +47,7 @@ R_gesamt = R₁ + R₂ + R₃ + ...
 ✅ Geringer Stromverbrauch möglich
 
 **Nachteile:**
-❌ Fällt ein Bauteil aus → alle aus (Weihnachtsbaum-Effekt)
+❌ Fällt ein Bauteil aus → alles aus (Weihnachtsbaum-Effekt)
 ❌ Alle Bauteile haben gleichen Strom
 ❌ Spannungsaufteilung kann problematisch sein
 
@@ -68,7 +68,7 @@ R_gesamt = R₁ + R₂ + R₃ + ...
 
 ### Messungen durchführen:
 
-1. **Gesamtstrom messen:** _____ A
+1. **Gesamtstrom messen (an verschiedenen Stellen):** _____ A
 2. **Strom nach LED₁:** _____ A  
 3. **Strom nach LED₂:** _____ A
 4. **Strom nach LED₃:** _____ A
@@ -103,7 +103,7 @@ Baue eine Reihenschaltung mit drei verschiedenen Widerständen:
 5. **Spannung über R₂ (470Ω):** _____ V  
 6. **Spannung über R₃ (1kΩ):** _____ V
 
-**Beobachtung:** Welcher Widerstand hat die höchste Spannung? _____
+**Beobachtung:** An welchem Widerstand liegt die höchste Spannung? _____
 
 ## 🧮 Rechenübungen
 
@@ -111,14 +111,14 @@ Baue eine Reihenschaltung mit drei verschiedenen Widerständen:
 Du willst 5 LEDs in Reihe an 12V betreiben. Jede LED benötigt 2V und 20mA.
 
 **Gegeben:**
-- Versorgungsspannung: 12V
-- LEDs: 5 Stück, je 2V, 20mA
+- Versorgungsspannung: U_ges = 12V
+- LEDs: 5 Stück, je U_LED = 2V, I_LED =20mA
 - Gesucht: Vorwiderstand
 
 **Lösung:**
-1. **Spannung aller LEDs:** 5 × 2V = _____ V
-2. **Spannung am Vorwiderstand:** 12V - _____ V = _____ V  
-3. **Strom durch die Schaltung:** _____ mA = _____ A
+1. **Spannung aller LEDs:** U_LEDges = 5 × 2V = _____ V
+2. **Spannung am Vorwiderstand:** U_Rvor = 12V - _____ V = _____ V  
+3. **Strom durch die Schaltung:** I_ges = _____ mA = _____ A
 4. **Vorwiderstand:** R = U / I = _____ V / _____ A = _____ Ω
 
 ### Aufgabe 2: Spannungsteiler berechnen
