@@ -9,7 +9,7 @@
 | P = U × I | Leistung | W |
 | P = U² / R | Leistung (mit R) | W |
 | P = I² × R | Leistung (mit I) | W |
-| E = P × t | Energie | Wh |
+| W = P × t | Arbeit | Wh |
 
 ### Reihenschaltung
 - **Strom:** I₁ = I₂ = I₃ = I_gesamt
