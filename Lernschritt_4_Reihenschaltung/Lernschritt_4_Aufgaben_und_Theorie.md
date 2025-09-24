@@ -94,7 +94,7 @@ Baue eine Reihenschaltung mit drei verschiedenen Widerständen:
 ```
 
 ### Berechnungen VOR der Messung:
-1. **Gesamtwiderstand:** R_ges = 220Ω + 470Ω + 1000Ω = _____ Ω
+1. **Gesamtwiderstand:** R<sub>ges<sub> = 220Ω + 470Ω + 1000Ω = _____ Ω
 2. **Erwarteter Strom:** I = U / R_ges = 9V / _____ Ω = _____ A
 
 ### Messungen:
