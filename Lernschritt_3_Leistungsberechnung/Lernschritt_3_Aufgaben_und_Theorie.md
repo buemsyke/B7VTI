@@ -60,17 +60,17 @@ P = I² × R  (wenn R bekannt)
 
 ### Energie und Kosten
 
-**Energie** ist Leistung × Zeit:
+**Arbeit** ist Leistung × Zeit:
 ```
 Energie = Leistung × Zeit
-E = P × t
+W = P × t
 ```
 
 **Einheit:** Kilowattstunden (kWh)
 
 **Stromkosten berechnen:**
 ```
-Kosten = Energie × Strompreis
+Kosten = Arbeit × Strompreis
 Kosten = P × t × Preis pro kWh
 ```
 
@@ -120,7 +120,7 @@ b) Energiekosten pro Tag bei 0,30€/kWh
 
 **Lösung:**
 a) P = U × I = 230V × 4,2A = _____ W = _____ kW
-b) Energie pro Tag = P × 24h = _____ kWh
+b) Arbeit pro Tag = P × 24h = _____ kWh
    Kosten = _____ kWh × 0,30€/kWh = _____ € pro Tag
 
 ### Aufgabe 2: Widerstand in einer Schaltung
