@@ -17,6 +17,7 @@ In einer **[Reihenschaltung](https://falstad.com/circuit/circuitjs.html?ctz=CQAg
 
 ```
 Batterie (+) → R1 → R2 → R3 → Batterie (-)
+![Reihenschaltung aus zwei gleich großen Widerständen](/Ressourcen/Reihenschaltung.png)
 ```
 
 ### Gesetze der Reihenschaltung
