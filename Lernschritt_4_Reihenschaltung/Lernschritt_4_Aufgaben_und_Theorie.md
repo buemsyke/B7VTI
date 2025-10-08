@@ -15,7 +15,7 @@ Der Netzwerktechniker benötigt deine Hilfe bei der Installation von Status-LEDs
 
 In einer **[Reihenschaltung](https://falstad.com/circuit/circuitjs.html?ctz=CQAgLCAMB0l3BWEBGGAmOaDsWDMkAONANgE5SsQFIqqaEBTAWmWQCgA3EDAkfCHijS8aNMDVRQpMBGwDu3QkN64MyqGwBOfNcjARVE0minVIWnTTTjL3AiLrmFh9S70Qnt-opWQPbAAdwOG4bcSt7PmkUeFj5YKsbF2tRePC7FTVhETSQ5GNbfJNPdPdC-Q0g0orSgtxo1Fi4eOTIl29zIORhFALu3hSo0Rimz37ek3HxsZ7B8Y74+b8fPmWZ3nHBabZcLBo3Oqyk6TYgA)** sind alle Bauteile in einer **einzigen Linie** hintereinander geschaltet. Der Strom hat nur **einen Weg**.
 
-![Reihenschaltung aus zwei gleich großen Widerständen](Lernschritt_4_Reihenschaltung/Ressourcen/Reihenschaltung.png)
+![Reihenschaltung aus zwei gleich großen Widerständen](Ressourcen/Reihenschaltung.png)
 
 ```
 Batterie (+) → R1 → R2 → R3 → Batterie (-)
