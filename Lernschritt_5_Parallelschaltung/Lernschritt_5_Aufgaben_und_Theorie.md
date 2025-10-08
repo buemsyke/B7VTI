@@ -13,15 +13,17 @@ Der Serverraum nimmt Gestalt an! Jetzt müssen verschiedene Geräte parallel an 
 
 ### Was ist eine Parallelschaltung?
 
-In einer **Parallelschaltung** sind alle Bauteile **nebeneinander** geschaltet. Jedes Bauteil hat einen **eigenen Weg** zur Stromquelle.
+In einer **[Parallelschaltung](https://falstad.com/circuit/circuitjs.html?ctz=CQAgLCAMB0l3BWEBGGAmOaDsWDMkAONANgE5SsQFIqqaEBTAWmWQCgA3EDAkfCHijS8aNMDVRQpMBGwDu3QkN64MyqGwBOfNcjARVE0minVIWnTTTjL3AiLrmFh9S70Qnt-opWQPbAAdwOG4bcSt7PmkUeFj5YKsbF2tRePC7FTVhETSQ5GNbfJNPdPdC-Q0g0orSgtxo1Fi4eOTIl29zIORhFALu3hSo0Rimz37ek3HxsZ7B8Y74+b8fPmWZ3nHBabZcLBo3Oqyk6TYgA)** sind alle Bauteile **nebeneinander** geschaltet. Jedes Bauteil hat einen **eigenen Weg** zur Stromquelle.
 
 ```
-        ┌── R₁ ──┐
-Batterie ├── R₂ ──┤ 
-        └── R₃ ──┘
+                  ┌── R₁ ──┐
+9V Batterie (+) ──├── R₂ ──┤── Batterie (-)
+                  └── R₃ ──┘
 ```
 
 ### Gesetze der Parallelschaltung
+
+Verändere die Widerstandswerte in der **[Parallelschaltung](https://falstad.com/circuit/circuitjs.html?ctz=CQAgLCAMB0l3BWEBGGAmOaDsWDMkAONANgE5SsQFIqqaEBTAWmWQCgA3EDAkfCHijS8aNMDVRQpMBGwDu3QkN64MyqGwBOfNcjARVE0minVIWnTTTjL3AiLrmFh9S70Qnt-opWQPbAAdwOG4bcSt7PmkUeFj5YKsbF2tRePC7FTVhETSQ5GNbfJNPdPdC-Q0g0orSgtxo1Fi4eOTIl29zIORhFALu3hSo0Rimz37ek3HxsZ7B8Y74+b8fPmWZ3nHBabZcLBo3Oqyk6TYgA)** und überprüfe die folgenden Aussagen:
 
 #### 1. Spannung ist überall gleich
 ```
@@ -66,9 +68,9 @@ R_gesamt = (R₁ × R₂) / (R₁ + R₂)
 ### Schaltung aufbauen
 
 ```
-        ┌── R₁(470Ω) ── LED₁ ──┐
-9V Batt. ├── R₂(470Ω) ── LED₂ ──┤ 
-        └── R₃(470Ω) ── LED₃ ──┘
+                  ┌── R₁(470Ω) ── LED₁ ──┐
+9V Batterie (+) ──├── R₂(470Ω) ── LED₂ ──┤── Batterie (-) 
+                  └── R₃(470Ω) ── LED₃ ──┘
 ```
 
 ### Komponenten:
@@ -107,9 +109,9 @@ R_gesamt = (R₁ × R₂) / (R₁ + R₂)
 Baue eine Parallelschaltung mit drei verschiedenen Widerständen:
 
 ```
-        ┌── R₁(220Ω) ──┐
-9V Batt. ├── R₂(470Ω) ──┤ 
-        └── R₃(1kΩ) ───┘
+                  ┌── R₁(220Ω) ──┐
+9V Batterie (+) ──├── R₂(470Ω) ──┤── Batterie (-) 
+                  └── R₃(1kΩ) ───┘
 ```
 
 ### Berechnungen VOR der Messung:
