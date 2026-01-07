@@ -13,16 +13,10 @@ Das Rechenzentrum soll mit einem Überwachungssystem ausgestattet werden. Temper
 
 ### Was ist ein Spannungsteiler?
 
-Ein **Spannungsteiler** teilt eine größere Spannung in kleinere Teilspannungen auf. Er besteht aus mindestens **zwei Widerständen in Reihe**.
+Ein **[Spannungsteiler](https://falstad.com/circuit/circuitjs.html?ctz=CQAgLCAMB0l3BWEBGGAmOaDsWDMkAONANgE5SsQFIqqaEBTAWmWQChcsbcMVS0QPGmjDcoUNgHcUaAjLkY5yWROnK5+CIsGQIkKfJAia6nXoOnk-Q6f0AHG9dPHB4k-A8GhRght6bVcDgfP2FfQNFhUUFeF3sgqJpIkNcadw84L39dI0IzQO9TQrBzACcYxIqU+kzy4ohC6xr9aW0i3ls2ADdcjRy2lTSglCG06AQ2IA)** teilt eine größere Spannung in kleinere Teilspannungen auf. Er besteht aus mindestens **zwei Widerständen in Reihe**.
 
 **Grundschaltung:**
-```
-U_ein ──┬── R₁ ──┐
-        │        │
-        ├── R₂ ──┤ U_aus
-        │        │
-        └────────┘
-```
+![Spannungsteiler aus zwei gleich großen Widerständen](Spannungsteiler.png)
 
 ### Spannungsteiler-Formel
 
@@ -58,13 +52,7 @@ Der Spannungsteiler verbraucht permanent Strom!
 
 ### Schaltung aufbauen
 
-```
-12V ──┬── R₁(1kΩ) ──┐
-      │             │
-      ├── R₂(2kΩ) ──┤ U_aus
-      │             │  
-      └─────────────┘
-```
+![Spannungsteiler aus zwei gleich großen Widerständen](Spannungsteiler.png)
 
 ### Berechnung VOR dem Aufbau:
 
@@ -110,13 +98,7 @@ Baue verschiedene Spannungsteiler auf und miss die Ausgangsspannung:
 ```
 
 ### Aufbau 2: Belasteter Teiler  
-```
-12V ── R₁(1kΩ) ── R₂(1kΩ) ──┬── U_aus
-                              │
-                              R_Last(1kΩ)
-                              │
-                              └──
-```
+![Belasteter Spannungsteiler](belasteterSpannungsteiler.png)
 
 ### Messungen:
 1. **Unbelastet:** U_aus = _____ V
