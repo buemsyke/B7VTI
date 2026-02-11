@@ -7,7 +7,7 @@ Dieses Repository enthält ein vollständiges selbstgesteuertes Lernmodul zum Th
 
 ### 📋 Inhalt
 
-Das Modul besteht aus 8 aufeinander aufbauenden Lernschritten mit:
+Das Modul besteht aus 9 aufeinander aufbauenden Lernschritten mit:
 - 🎯 Praxisnahen Handlungssituationen aus dem IT-Bereich
 - 📖 Fundiertem Fachwissen zu elektrischen Grundlagen
 - 🔧 Interaktiven Tinkercad-Simulationen
@@ -24,6 +24,7 @@ Das Modul besteht aus 8 aufeinander aufbauenden Lernschritten mit:
 6. **[Gemischte Schaltung](./Lernschritt_6_Gemischte_Schaltung/)**
 7. **[Spannungsteiler](./Lernschritt_7_Spannungsteiler/)**
 8. **[Brückenschaltung](./Lernschritt_8_Brueckenschaltung/)**
+9. **[Spannungsversorgung - Linear- und Schaltregler](./Lernschritt_9_Spannungsversorgung/)**
 
 ### 🎯 Lernziele
 
@@ -45,7 +46,7 @@ Detaillierte Informationen finden Sie in der **[Hauptdokumentation](./Elektrisch
 
 ### ⏱️ Zeitaufwand
 
-- **Gesamtdauer:** ca. 16-20 Unterrichtsstunden
+- **Gesamtdauer:** ca. 18-22 Unterrichtsstunden
 - **Pro Lernschritt:** 2-3 Stunden
 - **Empfehlung:** 2-3 Lernschritte pro Woche
 

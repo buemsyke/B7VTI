@@ -31,6 +31,7 @@ Nach Abschluss dieses Moduls kannst du:
 | 6 | [Gemischte Schaltung](./Lernschritt_6_Gemischte_Schaltung/) | Komplexe Serverraumverkabelung |
 | 7 | [Spannungsteiler](./Lernschritt_7_Spannungsteiler/) | Sensorauswertung und Signalaufbereitung |
 | 8 | [Brückenschaltung](./Lernschritt_8_Brueckenschaltung/) | Präzisionsmessungen für Monitoring |
+| 9 | [Spannungsversorgung](./Lernschritt_9_Spannungsversorgung/) | Linear- und Schaltregler für effiziente Stromversorgung |
 
 ### 🛠️ Benötigte Werkzeuge
 
@@ -51,7 +52,7 @@ Dieses Modul ist für **selbstgesteuertes Lernen** konzipiert:
 
 ### ⏱️ Zeitplanung
 
-- **Gesamtdauer**: ca. 16-20 Unterrichtsstunden
+- **Gesamtdauer**: ca. 18-22 Unterrichtsstunden
 - **Pro Lernschritt**: 2-3 Stunden
 - **Empfehlung**: 2-3 Lernschritte pro Woche
 

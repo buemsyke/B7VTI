@@ -380,3 +380,9 @@ Das war's! Du hast alle 8 Lernschritte erfolgreich absolviert!
 ```
 
 **🎉 Herzlichen Glückwunsch! Du bist jetzt fit für die elektrischen Herausforderungen als Informationstechnischer Assistent!**
+
+## 🚀 Bereit für Lernschritt 9?
+
+**Noch ein wichtiges Thema:** Spannungsversorgung - Linear- und Schaltregler!
+
+**▶️ Weiter zu [Lernschritt 9: Spannungsversorgung](../Lernschritt_9_Spannungsversorgung/)**
