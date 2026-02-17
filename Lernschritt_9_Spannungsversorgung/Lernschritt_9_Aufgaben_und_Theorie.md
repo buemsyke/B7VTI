@@ -94,7 +94,7 @@ Ein Schaltregler arbeitet mit **schnellem Ein- und Ausschalten** (Frequenz: 100k
 
 **Vereinfachtes Prinzip:**
 
-![Best website](https://de.wikipedia.org/wiki/Abwärtswandler#/media/Datei:Buck_converter.svg)            
+![Wikipedia](https://de.wikipedia.org/wiki/Abwärtswandler#/media/Datei:Buck_converter.svg)            
 
 
 Durch das Verhältnis von Ein- zu Ausschaltzeit (Duty Cycle) wird die Ausgangsspannung geregelt.
