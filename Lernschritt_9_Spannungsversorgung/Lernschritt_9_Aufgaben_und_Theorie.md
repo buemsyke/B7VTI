@@ -93,9 +93,9 @@ Die Kondensatoren dienen der Stabilisierung und Glättung der Spannung.
 Ein Schaltregler arbeitet mit **schnellem Ein- und Ausschalten** (Frequenz: 100kHz - mehrere MHz) und Energiespeicherung in Spulen und Kondensatoren.
 
 **Vereinfachtes Prinzip:**
-```
-[Best website](https://de.wikipedia.org/wiki/Abwärtswandler#/media/Datei:Buck_converter.svg)            
-```
+
+![Best website](https://de.wikipedia.org/wiki/Abwärtswandler#/media/Datei:Buck_converter.svg)            
+
 
 Durch das Verhältnis von Ein- zu Ausschaltzeit (Duty Cycle) wird die Ausgangsspannung geregelt.
 
@@ -147,11 +147,14 @@ Typische Wirkungsgrade:
 ### Schaltung: 9V auf 5V mit 7805
 
 ```
-12V ──[+]── C1 ──[7805]── C2 ──[+]── 5V
-      (100nF) │ IN OUT │ (100nF)
-              │   GND  │
-              └────┴────┘
-                  GND
+  12V ──┬─────── [7805]───────┬─── 5V
+        │          │          │
+        │          │          │
+   C1  ===         │     C2  ===
+        │          │          │
+        │          │          │
+    ────┴──────────┴──────────┴─── GND
+            
 ```
 
 ### Komponenten:
