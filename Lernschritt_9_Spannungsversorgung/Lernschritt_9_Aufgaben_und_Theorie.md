@@ -30,14 +30,18 @@ Ein Linearregler arbeitet wie ein **elektronisch regelbarer Widerstand**, der di
 
 **Vereinfachtes Prinzip:**
 ```
-U_ein ──┬─── [Steuerung] ───┬─── U_aus
-        │                    │
-        └─── [Transistor] ───┴─── GND
-             (variabler
-              Widerstand)
+U_ein ──┬─── [Steuerung ]─────┬─── U_aus
+        │    (mit Transistor) │
+        │          │          │
+   C1  ===         │     C2  ===
+        │          │          │
+        │          │          │
+    ────┴──────────┴──────────┴─── GND
+            
 ```
 
-Der Transistor passt seinen Widerstand so an, dass die Ausgangsspannung konstant bleibt.
+Der Transistor der Steuerung passt seinen Widerstand so an, dass die Ausgangsspannung konstant bleibt.
+Die Kondensatoren dienen der Stabilisierung und Glättung der Spannung.
 
 #### Beliebte Linearregler
 
@@ -90,11 +94,7 @@ Ein Schaltregler arbeitet mit **schnellem Ein- und Ausschalten** (Frequenz: 100k
 
 **Vereinfachtes Prinzip:**
 ```
-U_ein ──[Schalter]──[Spule]──┬── U_aus
-         (schnell)   (Speicher)│
-                               ├── [Kondensator]
-                               │   (Glättung)
-                              GND
+[Best website](https://de.wikipedia.org/wiki/Abwärtswandler#/media/Datei:Buck_converter.svg)            
 ```
 
 Durch das Verhältnis von Ein- zu Ausschaltzeit (Duty Cycle) wird die Ausgangsspannung geregelt.
