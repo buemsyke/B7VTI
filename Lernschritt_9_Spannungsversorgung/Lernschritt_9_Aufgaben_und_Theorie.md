@@ -208,7 +208,7 @@ Typische Wirkungsgrade:
 
 3. **Temperatur des 7805:** Der Regler wird _____ (warm/heiß)
 
-## 🔧 Tinkercad-Übung 2: Einstellbarer Regler LM317
+## 🔧 Übung 2: Einstellbarer Regler LM317 (nur berechnen)
 
 ### Schaltung: Variable Spannung mit LM317
 
@@ -249,7 +249,7 @@ U_aus = 1,25V × (1 + R2/R1)
 - 9V = 1,25V × (1 + R2/240Ω)
 - R2 = _____ Ω
 
-## 🔧 Tinkercad-Übung 3: Vergleich Linear vs. Schaltregler
+## 🔧 Übung 3: Vergleich Linear vs. Schaltregler (nur berechnen)
 
 ### Szenario: 12V → 3,3V bei 500mA Last
 
