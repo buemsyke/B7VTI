@@ -147,7 +147,7 @@ Typische Wirkungsgrade:
 ### Schaltung: 9V auf 5V mit 7805
 
 ```
-  12V ──┬─────── [7805]───────┬─── 5V
+   9V ──┬─────── [7805]───────┬─── 5V
         │          │          │
         │          │          │
    C1  ===         │     C2  ===
@@ -158,7 +158,7 @@ Typische Wirkungsgrade:
 ```
 
 ### Komponenten:
-- 1× 12V Batterie
+- 1× 9V Batterie
 - 1× Spannungsregler 7805
 - 2× Kondensator 100nF (0,1μF)
 - 1× LED (rot)
@@ -168,7 +168,7 @@ Typische Wirkungsgrade:
 
 ### Aufbau:
 
-1. **12V Batterie** als Eingangsspannung
+1. **9V Batterie** als Eingangsspannung
 2. **100nF Kondensator** zwischen Eingang und GND
 3. **7805** mit:
    - Pin 1 (IN) an 12V
@@ -190,11 +190,11 @@ Typische Wirkungsgrade:
 
 4. **Verlustleistung berechnen:**
    - P_Verlust = (U_ein - U_aus) × I_Last
-   - P_Verlust = (12V - 5V) × _____ A = _____ W
+   - P_Verlust = (9V - 5V) × _____ A = _____ W
 
 5. **Wirkungsgrad berechnen:**
    - η = (U_aus / U_ein) × 100%
-   - η = (5V / 12V) × 100% = _____ %
+   - η = (5V / 9V) × 100% = _____ %
 
 ### Variation: Last erhöhen
 
@@ -204,7 +204,7 @@ Typische Wirkungsgrade:
    - I_Last = _____ mA (deutlich höher!)
 
 2. **Neue Verlustleistung:**
-   - P_Verlust = (12V - 5V) × _____ A = _____ W
+   - P_Verlust = (9V - 5V) × _____ A = _____ W
 
 3. **Temperatur des 7805:** Der Regler wird _____ (warm/heiß)
 
@@ -213,13 +213,7 @@ Typische Wirkungsgrade:
 ### Schaltung: Variable Spannung mit LM317
 
 ```
-        R1 (240Ω)
-12V ──[LM317]──┬──── U_aus
-       │ ADJ   │
-       │       R2
-       └───────┴──── GND
-         (Potentiometer
-          1kΩ)
+Zeichnen Sie selbst eine Schaltung für die Verwendung des LM317. Recherchieren Sie dazu im Internet.
 ```
 
 ### Formel für U_aus:
@@ -229,7 +223,7 @@ U_aus = 1,25V × (1 + R2/R1)
 ```
 
 ### Komponenten:
-- 1× 12V Batterie
+- 1× 9V Batterie
 - 1× LM317 (einstellbarer Regler)
 - 1× Widerstand 240Ω (R1)
 - 1× Potentiometer 1kΩ (R2)
