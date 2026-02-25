@@ -14,7 +14,7 @@ Als Teil des Projekts musst du:
 ### 📚 Lernziele
 
 Nach Abschluss dieses Moduls kannst du:
-- ✅ Die elektrischen Grundgrößen Spannung, Strom, Widerstand und Leistung erklären
+- ✅ Die elektrischen Grundgrößen Spannung, Strom, Widerstand, Leistung und Kapazität erklären
 - ✅ Mit Tinkercad Schaltungen simulieren und Messungen durchführen
 - ✅ Berechnungen für verschiedene Schaltungsarten durchführen
 - ✅ Praktische Probleme aus dem IT-Bereich lösen
@@ -32,6 +32,7 @@ Nach Abschluss dieses Moduls kannst du:
 | 7 | [Spannungsteiler](./Lernschritt_7_Spannungsteiler/) | Sensorauswertung und Signalaufbereitung |
 | 8 | [Brückenschaltung](./Lernschritt_8_Brueckenschaltung/) | Präzisionsmessungen für Monitoring |
 | 9 | [Spannungsversorgung](./Lernschritt_9_Spannungsversorgung/) | Linear- und Schaltregler für effiziente Stromversorgung |
+| 10 | [Kondensatoren in Gleichstromkreisen](./Lernschritt_10_Kondensatoren/) | Lade-/Entladevorgänge und RC-Schaltungen |
 
 ### 🛠️ Benötigte Werkzeuge
 
@@ -52,7 +53,7 @@ Dieses Modul ist für **selbstgesteuertes Lernen** konzipiert:
 
 ### ⏱️ Zeitplanung
 
-- **Gesamtdauer**: ca. 18-22 Unterrichtsstunden
+- **Gesamtdauer**: ca. 20-25 Unterrichtsstunden
 - **Pro Lernschritt**: 2-3 Stunden
 - **Empfehlung**: 2-3 Lernschritte pro Woche
 

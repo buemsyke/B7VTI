@@ -25,6 +25,17 @@
 ### Spezialformeln
 - **Spannungsteiler:** U_aus = U_ein × (R₂ / (R₁ + R₂))
 - **Brückenabgleich:** R₁ × R₃ = R₂ × R₄
+- **Zeitkonstante:** τ = R × C
+- **Kondensator-Energie:** W = ½ × C × U²
+- **Kondensator-Ladung:** C = Q / U
+
+### Kondensatorschaltungen
+- **Parallel:** C_gesamt = C₁ + C₂ + C₃
+- **Reihe:** 1/C_gesamt = 1/C₁ + 1/C₂ + 1/C₃
+- **Zwei in Reihe:** C_ges = (C₁ × C₂) / (C₁ + C₂)
+- **Laden:** U_C(t) = U_ein × (1 - e^(-t/τ))
+- **Entladen:** U_C(t) = U_start × e^(-t/τ)
+- **Faustregel:** Nach 5 × τ vollständig geladen/entladen
 
 ## 📊 Einheiten und Präfixe
 
@@ -35,10 +46,14 @@
 | Strom | I | Ampere (A) |
 | Widerstand | R | Ohm (Ω) |
 | Leistung | P | Watt (W) |
+| Kapazität | C | Farad (F) |
 
 ### Präfixe
 | Präfix | Symbol | Faktor | Beispiel |
 |--------|--------|--------|----------|
+| Pico | p | 0,000000000001 | 100pF = 0,0000000001F |
+| Nano | n | 0,000000001 | 100nF = 0,0000001F |
+| Mikro | μ | 0,000001 | 470μF = 0,00047F |
 | Milli | m | 0,001 | 20mA = 0,02A |
 | Kilo | k | 1.000 | 4,7kΩ = 4.700Ω |
 | Mega | M | 1.000.000 | 2,2MΩ = 2.200.000Ω |
@@ -49,6 +64,7 @@
 - **Batterie:** 9V, 12V
 - **Widerstände:** 220Ω, 470Ω, 1kΩ, 2,2kΩ
 - **LEDs:** Rot (ca. 2V, 20mA)
+- **Kondensatoren:** 100nF, 470μF, 1000μF
 - **Multimeter:** Volt-/Ampere-Messung
 
 ### Messregeln
