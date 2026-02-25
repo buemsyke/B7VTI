@@ -713,9 +713,9 @@ Entscheidungskriterien:
 - Batteriebetrieb → Schaltregler (Effizienz!)
 ```
 
-## 🏆 Abschluss des gesamten Lernmoduls
+## 🏆 Zusammenfassung Lernschritt 9
 
-**Herzlichen Glückwunsch!** Du hast alle 9 Lernschritte erfolgreich absolviert!
+**Sehr gut!** Du hast Lernschritt 9 erfolgreich absolviert!
 
 **Du hast gelernt:**
 - ✅ **Grundgrößen:** Spannung, Strom, Widerstand, Leistung
@@ -723,13 +723,8 @@ Entscheidungskriterien:
 - ✅ **Schaltungen:** Reihe, Parallel, Gemischt, Spannungsteiler, Brücke
 - ✅ **Spannungsversorgung:** Linear- und Schaltregler
 
-**Du kannst jetzt:**
-- 🔧 Elektrische Schaltungen analysieren und dimensionieren
-- 📊 Berechnungen für IT-Systeme durchführen
-- ⚡ Die richtige Spannungsversorgung auswählen
-- 🎯 Effiziente und zuverlässige Stromversorgungen planen
-
-**🎉 Du bist jetzt bestens vorbereitet für die elektrischen Herausforderungen als Informationstechnischer Assistent!**
+**Weiter geht es mit:**
+- 🔜 **Lernschritt 10:** Kondensatoren in Gleichstromkreisen – Lade-/Entladevorgänge und RC-Schaltungen
 
 ---
 
@@ -745,10 +740,7 @@ Entscheidungskriterien:
 - [ ] Anwendungsbeispiele verstehen
 - [ ] Selbsttest bestanden
 
-### 🎯 Gesamtmodul abgeschlossen
-- [ ] Alle 9 Lernschritte durchgearbeitet
-- [ ] Tinkercad-Übungen erfolgreich absolviert
-- [ ] Rechenübungen verstanden
-- [ ] Praktische IT-Anwendungen erkannt
+### 🎯 Nächster Schritt
+- [ ] Weiter zu **[Lernschritt 10: Kondensatoren in Gleichstromkreisen](../Lernschritt_10_Kondensatoren/)**
 
-**🚀 Bereit für die Praxis im IT-Bereich!**
+**🚀 Bereit für den nächsten Schritt!**
