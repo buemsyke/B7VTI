@@ -8,7 +8,7 @@
 
 ![Schaltplan der Alarmzentrale: 9-V-Quelle G1, R1 = 220 Ω mit Spannungsmesser P1, danach zwei parallele Zweige: S1 mit R2 = 470 Ω und S2 mit R3 = 1 kΩ](Ressourcen/LS6_Alarmzentrale_Schaltplan.svg)
 
-**Simulation zum Prüfen:** [Versuch 06 – Alarmzentrale](../versuche/06_gemischte_schaltung.html) (Klick auf S1 oder S2 öffnet die Tür)
+**Simulation zum Prüfen:** [Versuch 06 – Alarmzentrale](https://buemsyke.github.io/B7VTI/versuche/06_gemischte_schaltung.html)) (Klick auf S1 oder S2 öffnet die Tür)
 
 ---
 
