@@ -14,4 +14,4 @@
 
 Hängst du fest? Nutze die **Hilfekarten** am Ende der Handlungssituation.
 
-**▶️ Weiter zu Lernschritt 7: Spannungsteiler**
+
