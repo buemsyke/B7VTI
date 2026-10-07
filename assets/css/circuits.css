@@ -1,0 +1,263 @@
+:root {
+    --c-bg: #f7f9fc;
+    --c-surface: #ffffff;
+    --c-border: #d8dee9;
+    --c-accent: #2a6df4;
+    --c-accent-dark: #1d4ec1;
+    --c-text: #1a2433;
+    --c-text-light: #5a6477;
+    --c-warn-bg: #fff8e1;
+    --c-warn-border: #f0c419;
+    --c-info-bg: #e8f1ff;
+    --c-info-border: #2a6df4;
+    --c-solution-bg: #ecf8ec;
+    --c-solution-border: #4caf50;
+}
+
+* { box-sizing: border-box; }
+
+body.versuch-page {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--c-text);
+    background: var(--c-bg);
+    line-height: 1.5;
+}
+
+.versuch-header {
+    background: var(--c-surface);
+    border-bottom: 1px solid var(--c-border);
+    padding: 0.7rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.versuch-header h1 {
+    font-size: 1.05rem;
+    margin: 0;
+}
+.versuch-header .nav-links {
+    display: flex;
+    gap: 0.5rem;
+}
+.versuch-header .nav-links a {
+    color: var(--c-accent);
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid var(--c-border);
+    border-radius: 4px;
+    background: #fff;
+}
+.versuch-header .nav-links a:hover {
+    background: var(--c-info-bg);
+}
+
+.versuch-page-main {
+    padding: 1rem 1.2rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.exercise-info {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: 6px;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 0.8rem;
+    transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+    max-height: 5000px;
+}
+.exercise-info.collapsed {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-width: 0;
+    opacity: 0;
+}
+
+.exercise-info h2 {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+.exercise-info h3 {
+    font-size: 1.05rem;
+    margin: 1.1rem 0 0.4rem;
+}
+
+.info-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+@media (max-width: 900px) {
+    .info-columns { grid-template-columns: 1fr; }
+}
+
+.situation-box {
+    background: var(--c-info-bg);
+    border-left: 4px solid var(--c-info-border);
+    padding: 0.7rem 0.9rem;
+    border-radius: 4px;
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+}
+
+.measurement-info {
+    background: var(--c-warn-bg);
+    border-left: 4px solid var(--c-warn-border);
+    padding: 0.6rem 0.9rem;
+    border-radius: 4px;
+    margin-top: 0.8rem;
+}
+.measurement-info h4 { margin: 0 0 0.3rem; font-size: 0.95rem; }
+.measurement-info ul { margin: 0.3rem 0 0; padding-left: 1.2rem; }
+
+.task-list { padding-left: 1.2rem; margin: 0.4rem 0; }
+.task-list li { margin-bottom: 0.5rem; }
+
+.hint {
+    background: #f0f4fa;
+    border: 1px dashed #c8d2e0;
+    border-radius: 4px;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.9rem;
+    margin-top: 0.8rem;
+    color: var(--c-text-light);
+}
+
+.solution-toggle { margin-top: 1rem; }
+.solution-btn {
+    background: var(--c-accent);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 0.9rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.solution-btn:hover { background: var(--c-accent-dark); }
+.solution-content {
+    display: none;
+    margin-top: 0.6rem;
+    background: var(--c-solution-bg);
+    border-left: 4px solid var(--c-solution-border);
+    padding: 0.7rem 0.9rem;
+    border-radius: 4px;
+}
+.solution-toggle.show .solution-content { display: block; }
+.solution-content table {
+    border-collapse: collapse;
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+}
+.solution-content table th,
+.solution-content table td {
+    border: 1px solid var(--c-border);
+    padding: 0.3rem 0.6rem;
+    text-align: center;
+}
+
+.toggle-bar { text-align: right; margin-bottom: 0.5rem; }
+.toggle-info-btn {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: 4px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--c-text-light);
+}
+.toggle-info-btn:hover { background: var(--c-info-bg); }
+
+.simulator-container {
+    position: relative;
+    background: #fff;
+    border: 1px solid var(--c-border);
+    border-radius: 6px;
+    overflow: hidden;
+    height: 85vh;
+    min-height: 720px;
+}
+.simulator-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+.simulator-loading {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: var(--c-text-light);
+    z-index: 1;
+}
+.spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid #d8dee9;
+    border-top-color: var(--c-accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin-bottom: 0.6rem;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.versuch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.versuch-card {
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: 6px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--c-text);
+    display: block;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.versuch-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    border-color: var(--c-accent);
+}
+.versuch-card h3 { margin: 0 0 0.3rem; font-size: 1rem; }
+.versuch-card p { margin: 0; font-size: 0.88rem; color: var(--c-text-light); }
+.versuch-card .versuch-tag {
+    display: inline-block;
+    background: var(--c-info-bg);
+    color: var(--c-accent);
+    border-radius: 3px;
+    font-size: 0.72rem;
+    padding: 0.1rem 0.4rem;
+    margin-right: 0.3rem;
+    margin-top: 0.4rem;
+}
+
+/* MkDocs-eingebettete Iframes in Lessons */
+.lesson-circuit-embed {
+    width: 100%;
+    height: 720px;
+    border: 1px solid var(--c-border);
+    border-radius: 6px;
+    margin: 0.6rem 0;
+    background: #fff;
+}
+@media (max-width: 800px) {
+    .lesson-circuit-embed { height: 560px; }
+}
+.lesson-circuit-caption {
+    font-size: 0.85rem;
+    color: var(--c-text-light);
+    margin: 0.2rem 0 1rem;
+}
