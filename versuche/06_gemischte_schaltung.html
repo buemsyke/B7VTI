@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versuch 06 – Gemischte Schaltung</title>
+    <link rel="stylesheet" href="../assets/css/circuits.css">
+</head>
+<body class="versuch-page">
+
+<header class="versuch-header">
+    <h1>Versuch 06 – Alarmzentrale: Welche Tür ist offen? (gemischte Schaltung)</h1>
+    <nav class="nav-links">
+        <a href="05_parallelschaltung.html">← Vorheriger</a>
+        <a href="index.html">Übersicht</a>
+        <a href="../Lernschritt_6_Gemischte_Schaltung/">Lernschritt 6</a>
+        <a href="07_spannungsteiler.html">Nächster →</a>
+    </nav>
+</header>
+
+<main class="versuch-page-main">
+
+    <div class="exercise-info">
+        <h2>Prototyp der Alarmzentrale – zum Prüfen deiner Rechnung</h2>
+
+        <div class="info-columns">
+            <div>
+                <h3>Handlungssituation</h3>
+                <div class="situation-box">
+                    Die Zentrale misst nur <strong>eine</strong> Spannung: U<sub>1</sub> an
+                    R<sub>1</sub> (Anzeige P1). Hinter R<sub>1</sub> liegen zwei
+                    Meldergruppen parallel: <strong>S1 Rack-Tür</strong> mit
+                    R<sub>2</sub> = 470 Ω und <strong>S2 Raumtür</strong> mit
+                    R<sub>3</sub> = 1 kΩ. Tür zu = Kontakt geschlossen.
+                </div>
+
+                <h3>So bedienst du die Simulation</h3>
+                <ul class="task-list">
+                    <li><strong>Klick auf S1 oder S2</strong> öffnet bzw. schließt die Tür.</li>
+                    <li>P1 zeigt U<sub>1</sub>, das Amperemeter unten den Gesamtstrom I.</li>
+                    <li>Maus über ein Bauteil: Strom und Spannung erscheinen unten rechts.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Versuchsaufgaben</h3>
+                <ol class="task-list">
+                    <li>
+                        <strong>Erst rechnen, dann prüfen:</strong> Vergleiche deine Werte aus
+                        Teil A des Prüfprotokolls (beide Türen zu) mit der Simulation.
+                    </li>
+                    <li>
+                        Prüfe Knoten- und Maschenregel an den simulierten Werten:
+                        I<sub>2</sub> + I<sub>3</sub> = I und U<sub>1</sub> + U<sub>23</sub> = 9 V?
+                    </li>
+                    <li>
+                        Öffne die Türen nacheinander und prüfe deine Auswertetabelle (Teil B).
+                    </li>
+                </ol>
+
+                <div class="solution-toggle">
+                    <button class="solution-btn">Beispiellösung anzeigen</button>
+                    <div class="solution-content">
+                        <p>Beide Türen zu: R<sub>23</sub> ≈ 319,7 Ω, R<sub>ges</sub> ≈ 539,7 Ω,
+                            I ≈ 16,68 mA, U<sub>1</sub> ≈ 3,67 V, U<sub>23</sub> ≈ 5,33 V,
+                            I<sub>2</sub> ≈ 11,34 mA, I<sub>3</sub> ≈ 5,33 mA.</p>
+                        <p>Rack-Tür offen: U<sub>1</sub> ≈ 1,62 V · Raumtür offen:
+                            U<sub>1</sub> ≈ 2,87 V · beide offen: 0 V ·
+                            Kurzschluss A–B: 9 V.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toggle-bar">
+        <button class="toggle-info-btn">
+            <span class="arrow">▼</span> Aufgabenstellung ausblenden
+        </button>
+    </div>
+
+    <div class="simulator-container">
+        <div class="simulator-loading">
+            <div class="spinner"></div>
+            <p>Simulator wird geladen…</p>
+        </div>
+        <iframe id="simulator" title="Falstad CircuitJS1 Simulator"
+                sandbox="allow-scripts allow-same-origin allow-popups"
+                loading="eager"></iframe>
+    </div>
+</main>
+
+<script src="../assets/js/circuit-loader.js"></script>
+<script>
+    // 9 V – R1 (220 Ω, Messwiderstand) – Knoten A – [S1 + R2 (470 Ω)] ∥ [S2 + R3 (1 kΩ)] – Knoten B – Amperemeter – 9 V
+    // Spannungsmesser P1 parallel zu R1. Elemente verbinden sich nur an Endpunkten; keine Leitung überlagert ein Bauteil.
+    // Labels ohne ":" und "=" (Falstad zeigt sie sonst als %3A/%3D an). Quelle: Lernschritt_6_Gemischte_Schaltung/Ressourcen/LS6_Alarmzentrale_Falstad.txt
+    const circuit = `$ 1 0.000005 10.20027730826997 50 5 50 5e-11
+v 96 400 96 96 0 0 40 9 0 0 0.5
+w 96 96 176 96 0
+r 176 96 304 96 0 220
+w 304 96 400 96 0
+w 400 96 576 96 0
+s 400 96 400 176 0 0 false
+r 400 176 400 320 0 470
+w 400 320 400 400 0
+s 576 96 576 176 0 0 false
+r 576 176 576 320 0 1000
+w 576 320 576 400 0
+w 576 400 400 400 0
+w 400 400 304 400 0
+370 304 400 176 400 1 0 0
+w 176 400 96 400 0
+w 176 96 176 32 0
+w 304 96 304 32 0
+p 176 32 304 32 1 0 0
+x 176 -8 330 11 0 16 P1 Anzeige U1
+x 222 132 262 151 0 16 R1
+x 424 140 520 159 0 16 S1 Rack-Tür
+x 600 140 690 159 0 16 S2 Raumtür
+x 352 256 392 275 0 16 R2
+x 528 256 568 275 0 16 R3
+x 172 440 330 459 0 16 Gesamtstrom I
+x 24 256 80 275 0 16 9 V`;
+    CircuitLoader.loadCircuit('simulator', circuit, '../assets/falstad');
+</script>
+
+</body>
+</html>
